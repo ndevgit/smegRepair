@@ -10,6 +10,9 @@
 
 .footer__content-left {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .footer__content-right {
@@ -31,4 +34,12 @@
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 20px;
+}
+
+.store-description__footer {
+  width: 100%;
+}
+
+.master-info__footer {
+  width: 100%;
 }
