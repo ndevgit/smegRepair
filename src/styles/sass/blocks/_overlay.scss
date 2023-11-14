@@ -1,0 +1,59 @@
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.368627451);
+  display: none;
+}
+
+.overlay--visible {
+  display: block;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #efefef;
+  padding: 10px;
+  max-width: 320px;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__name {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  align-self: flex-start;
+}
+
+.form__phone {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  align-self: flex-start;
+}
+
+.button-close {
+  border-radius: 100%;
+  background-color: rgba(173, 12, 16, 0.5019607843);
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+
+  &:hover {
+    background-color: #ad0c10;
+    transition: 0.3s;
+  }
+}

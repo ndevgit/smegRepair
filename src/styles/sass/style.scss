@@ -1,0 +1,16 @@
+@import './blocks/body';
+@import './blocks/reset';
+@import './blocks/header';
+@import './blocks/container';
+@import './blocks/main';
+@import './blocks/reusables';
+@import './blocks/footer';
+@import './blocks/prices-pages';
+@import './blocks/media';
+@import './blocks/page';
+@import './blocks/overlay';
+
+.slick-prev:before,
+.slick-next:before {
+  color: #ad0c10 !important;
+}
