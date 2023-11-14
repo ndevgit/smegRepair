@@ -1,0 +1,142 @@
+@media (max-width: 768px) {
+  .nav-list__item-link {
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .button__header {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+
+  .master-info {
+    font-size: 10px;
+  }
+
+  .store-description {
+    font-size: 10px;
+  }
+
+  .phone-number {
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .promo-order__title {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+
+  .promo-order__features {
+    font-size: 15px;
+  }
+
+  .button__promo {
+    font-size: 15px;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+  }
+
+  .promo-history__text {
+    font-size: 15px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .repair-cards__item-description {
+    font-size: 15px;
+  }
+
+  .features-cards__item-title {
+    font-size: 15px;
+  }
+
+  .features-cards__item-description {
+    font-size: 15px;
+  }
+
+  .nav-list__footer-title {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo {
+    max-width: 70px;
+  }
+
+  .button__header {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .button__mobile {
+    display: block;
+  }
+
+  .reverse-form__body {
+    flex-direction: column;
+  }
+
+  .nav-list__item-link {
+    font-size: 8px;
+  }
+
+  .nav-list__footer-title {
+    font-size: 10px;
+  }
+
+  .logo__footer {
+    display: none;
+  }
+
+  .header__content-bottom {
+    display: none;
+  }
+
+  .button__price {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+
+  .promo-order {
+    flex-direction: column;
+  }
+
+  .master-info {
+    display: none;
+  }
+
+  .store-description {
+    display: none;
+  }
+
+  .store-description__mobile {
+    display: block;
+  }
+
+  .master-info__mobile {
+    display: block;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .promo-order__features {
+    font-size: 10px;
+  }
+
+  .promo-history__text {
+    font-size: 10px;
+  }
+
+  .features-cards__item-description {
+    font-size: 10px;
+  }
+}

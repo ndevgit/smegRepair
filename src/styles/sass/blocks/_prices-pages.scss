@@ -1,0 +1,44 @@
+.promo-price {
+  margin-bottom: 30px;
+}
+
+.promo-price__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.price-card {
+  background-color: #eae0d5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 540px;
+  width: 100%;
+  padding: 10px;
+}
+
+.price-card__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.price-card__title {
+  font-size: 15px;
+  color: #000;
+}
+
+.price-card__price {
+  font-size: 15px;
+  color: #000;
+}
+
+.price-card__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
