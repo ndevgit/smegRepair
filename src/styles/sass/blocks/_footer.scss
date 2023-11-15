@@ -18,6 +18,8 @@
 .footer__content-right {
   display: flex;
   gap: 30px;
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .nav__footer {
@@ -33,7 +35,7 @@
   color: #fff;
   font-size: 18px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .store-description__footer {
